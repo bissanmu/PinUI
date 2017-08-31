@@ -12,6 +12,8 @@
 		9068D2DF1F579B2300C9A64E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9068D2DD1F579B2300C9A64E /* Main.storyboard */; };
 		9068D2E11F579B2300C9A64E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9068D2E01F579B2300C9A64E /* Assets.xcassets */; };
 		9068D2E41F579B2300C9A64E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9068D2E21F579B2300C9A64E /* LaunchScreen.storyboard */; };
+		9068D2EC1F579CD200C9A64E /* MainCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9068D2EB1F579CD200C9A64E /* MainCollectionViewController.swift */; };
+		9068D2EE1F579F8200C9A64E /* PinCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9068D2ED1F579F8200C9A64E /* PinCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9068D2E01F579B2300C9A64E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9068D2E31F579B2300C9A64E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9068D2E51F579B2300C9A64E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9068D2EB1F579CD200C9A64E /* MainCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCollectionViewController.swift; sourceTree = "<group>"; };
+		9068D2ED1F579F8200C9A64E /* PinCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				9068D2E01F579B2300C9A64E /* Assets.xcassets */,
 				9068D2E21F579B2300C9A64E /* LaunchScreen.storyboard */,
 				9068D2E51F579B2300C9A64E /* Info.plist */,
+				9068D2EB1F579CD200C9A64E /* MainCollectionViewController.swift */,
+				9068D2ED1F579F8200C9A64E /* PinCollectionViewCell.swift */,
 			);
 			path = PinUI;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9068D2EE1F579F8200C9A64E /* PinCollectionViewCell.swift in Sources */,
 				9068D2DC1F579B2300C9A64E /* ViewController.swift in Sources */,
+				9068D2EC1F579CD200C9A64E /* MainCollectionViewController.swift in Sources */,
 				9068D2DA1F579B2300C9A64E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
